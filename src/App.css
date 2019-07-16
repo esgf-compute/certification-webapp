@@ -23,6 +23,21 @@
   color: #61dafb;
 }
 
+#root {
+  padding-top: 12px;
+  height: calc(100vh - 100px);
+}
+
+.ReactVirtualized__Table__row {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ReactVirtualized__Table__headerRow {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
